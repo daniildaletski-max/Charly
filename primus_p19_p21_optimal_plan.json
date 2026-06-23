@@ -1,0 +1,305 @@
+{
+  "model": "Dynama Primus P19-P21 stochastic optimizer",
+  "starting_equity": 28592440,
+  "best_score": 39396646.9,
+  "expected_final_equity": 62975201.17,
+  "expected_gain": 34382761.17,
+  "recommended_strategy": {
+    "expand_p19": true,
+    "periods": [
+      {
+        "period": 19,
+        "price_p2": 3099,
+        "price_p3": 2699,
+        "mkt_p2": 1000000,
+        "mkt_p3": 800000,
+        "p2_share": 0.35,
+        "launch_m4": false,
+        "price_m4": 3399,
+        "mkt_m4": 700000,
+        "m4_share": 0.25
+      },
+      {
+        "period": 20,
+        "price_p2": 3199,
+        "price_p3": 2699,
+        "mkt_p2": 1200000,
+        "mkt_p3": 1000000,
+        "p2_share": 0.35,
+        "launch_m4": true,
+        "price_m4": 2999,
+        "mkt_m4": 400000,
+        "m4_share": 0.15
+      },
+      {
+        "period": 21,
+        "price_p2": 2999,
+        "price_p3": 2699,
+        "mkt_p2": 600000,
+        "mkt_p3": 1000000,
+        "p2_share": 0.35,
+        "launch_m4": true,
+        "price_m4": 3399,
+        "mkt_m4": 400000,
+        "m4_share": 0.25
+      }
+    ]
+  },
+  "scenario_results": [
+    {
+      "scenario": "LOW",
+      "final_equity": 62018344.86,
+      "equity_gain": 33425904.86,
+      "period_results": [
+        {
+          "period": 19,
+          "revenue": 36907000,
+          "net_profit": 8768425,
+          "equity_end": 37360865,
+          "sales": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          },
+          "lost_sales": {
+            "p2": 532,
+            "p3": 1523,
+            "m4": 0
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          }
+        },
+        {
+          "period": 20,
+          "revenue": 54956171,
+          "net_profit": 10726803,
+          "equity_end": 48087669,
+          "sales": {
+            "p2": 5347,
+            "p3": 10774,
+            "m4": 2925
+          },
+          "lost_sales": {
+            "p2": 0,
+            "p3": 105,
+            "m4": 1976
+          },
+          "inventory_end": {
+            "p2": 454,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 5801,
+            "p3": 10774,
+            "m4": 2925
+          }
+        },
+        {
+          "period": 21,
+          "revenue": 57330001,
+          "net_profit": 13930676,
+          "equity_end": 62018345,
+          "sales": {
+            "p2": 5573,
+            "p3": 9506,
+            "m4": 4401
+          },
+          "lost_sales": {
+            "p2": 219,
+            "p3": 1775,
+            "m4": 0
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 474
+          },
+          "production": {
+            "p2": 5119,
+            "p3": 9506,
+            "m4": 4875
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "MID",
+      "final_equity": 63294153.28,
+      "equity_gain": 34701713.28,
+      "period_results": [
+        {
+          "period": 19,
+          "revenue": 36907000,
+          "net_profit": 8768425,
+          "equity_end": 37360865,
+          "sales": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          },
+          "lost_sales": {
+            "p2": 1097,
+            "p3": 2631,
+            "m4": 0
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          }
+        },
+        {
+          "period": 20,
+          "revenue": 56408625,
+          "net_profit": 11816144,
+          "equity_end": 49177009,
+          "sales": {
+            "p2": 5801,
+            "p3": 10774,
+            "m4": 2925
+          },
+          "lost_sales": {
+            "p2": 140,
+            "p3": 1313,
+            "m4": 2521
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 5801,
+            "p3": 10774,
+            "m4": 2925
+          }
+        },
+        {
+          "period": 21,
+          "revenue": 57578625,
+          "net_profit": 14117144,
+          "equity_end": 63294153,
+          "sales": {
+            "p2": 5119,
+            "p3": 9506,
+            "m4": 4875
+          },
+          "lost_sales": {
+            "p2": 1317,
+            "p3": 3028,
+            "m4": 15
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 5119,
+            "p3": 9506,
+            "m4": 4875
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "HIGH",
+      "final_equity": 63294153.28,
+      "equity_gain": 34701713.28,
+      "period_results": [
+        {
+          "period": 19,
+          "revenue": 36907000,
+          "net_profit": 8768425,
+          "equity_end": 37360865,
+          "sales": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          },
+          "lost_sales": {
+            "p2": 1775,
+            "p3": 3961,
+            "m4": 0
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 4550,
+            "p3": 8450,
+            "m4": 0
+          }
+        },
+        {
+          "period": 20,
+          "revenue": 56408625,
+          "net_profit": 11816144,
+          "equity_end": 49177009,
+          "sales": {
+            "p2": 5801,
+            "p3": 10774,
+            "m4": 2925
+          },
+          "lost_sales": {
+            "p2": 853,
+            "p3": 2764,
+            "m4": 3174
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 5801,
+            "p3": 10774,
+            "m4": 2925
+          }
+        },
+        {
+          "period": 21,
+          "revenue": 57578625,
+          "net_profit": 14117144,
+          "equity_end": 63294153,
+          "sales": {
+            "p2": 5119,
+            "p3": 9506,
+            "m4": 4875
+          },
+          "lost_sales": {
+            "p2": 2089,
+            "p3": 4533,
+            "m4": 602
+          },
+          "inventory_end": {
+            "p2": 0,
+            "p3": 0,
+            "m4": 0
+          },
+          "production": {
+            "p2": 5119,
+            "p3": 9506,
+            "m4": 4875
+          }
+        }
+      ]
+    }
+  ]
+}
